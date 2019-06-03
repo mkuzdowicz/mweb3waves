@@ -27,7 +27,7 @@ class App extends React.Component {
     render() {
         return (
             <div className="container">
-                <h1 class="display-3 text-center text-info">Hello Waves! V: 0.01</h1>
+                <h1 class="display-3 text-center text-info">Hello Waves! V: 0.0.1</h1>
     		    <input className="btn btn-primary" type="submit" value="Auth" onClick={this.authFunc}/>
     	    </div>
         )
