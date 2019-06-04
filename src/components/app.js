@@ -16,7 +16,7 @@ class App extends React.Component {
                 console.log( auth ); //displaying the result on the console
                 /*...processing data */
             }).catch(error => {
-                console.error("Autgentication issue")
+                console.error("Authentication issue")
                 console.error( error ); // displaying the result on the console
                 /*...processing errors */
             })
